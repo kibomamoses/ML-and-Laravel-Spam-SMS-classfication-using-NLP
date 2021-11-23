@@ -13,9 +13,13 @@
 This project show how you can call  NLP model API from Algorithmia MLOps using Algorithmia PHP Client to detect spam text meessage.
 Laravel is a web application framework with expressive, elegant syntax and Algorithmia.com makes machine learning models to be easily deployed by the language of your choice
 ## Set Up
-Part 1
+
+# Part 1
+
 1.Run the NLP Spam Message Classification .ipynb using jupyter and make sure it working propery and models are produced
-part2
+
+# part2
+
 Step 1: Create an Account on Algorithmia
 The first step is to create an account in Algorithmia by visiting this page: https://algorithmia.com/signup.
 
@@ -60,7 +64,8 @@ In this section you create your sample input and output so that users can try yo
 
 (c) Configure Algorithm settings
 Lastly, you select if your algorithm will be public (which means anyone can call it) or private (which means only owners can call it). You also need to set the royalty and then click the publish button at the bottom of the page.
-part 3
+
+# part 3
 2.Install Algorthimia PHP client
 
 composer require algorithmia/algorithmia
